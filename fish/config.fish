@@ -2,6 +2,7 @@ if status is-interactive
 	fish_vi_key_bindings
 
 	set -gx PATH $PATH $HOME/.krew/bin
+	set -Ux EDITOR vim
 
 	function fish_user_key_bindings
 		for mode in insert default visual
