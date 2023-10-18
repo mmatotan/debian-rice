@@ -13,6 +13,7 @@ if status is-interactive
 	status --is-interactive; and source (rbenv init -|psub)
 	zoxide init fish | source
 
+	alias vim="nvim"
 	alias k="kubectl"
 	alias update="sudo nala update && sudo nala upgrade -y"
 	alias fshconf="vim ~/.config/fish/config.fish"
