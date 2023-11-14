@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "swaylock",
+    "action" : "i3lock -c 4C566A -f",
     "text" : "Lock",
     "keybind" : "l"
 }

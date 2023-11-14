@@ -17,7 +17,7 @@ if status is-interactive
 	alias k="kubectl"
 	alias update="sudo nala update && sudo nala upgrade -y"
 	alias fshconf="vim ~/.config/fish/config.fish"
-	alias swyconf="vim ~/.config/sway/config"
+	alias i3conf="vim ~/.config/i3/config"
 
 	bind -M insert -m default jj 'commandline -f repaint'
 end
