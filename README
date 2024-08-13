@@ -4,3 +4,11 @@ Nerd fonts install:
 ```
 bash -c  "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)" 
 ```
+
+Requirements:
+* neovim
+* dunst
+* mako
+* wlogout
+* i3
+* flameshot

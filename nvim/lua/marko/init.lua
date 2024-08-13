@@ -1,5 +1,7 @@
 require("marko.remap")
 require("mason").setup()
+vim.opt.relativenumber = true
+vim.opt.clipboard = 'unnamedplus'
 
 vim.opt.signcolumn = "yes"
 vim.api.nvim_create_autocmd("FileType", {
@@ -18,3 +20,4 @@ vim.api.nvim_create_autocmd("BufWritePre", {
     vim.lsp.buf.format()
   end,
 })
+
