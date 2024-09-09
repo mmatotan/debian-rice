@@ -12,7 +12,8 @@
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font is used in the bar {} block below.
-font pango:monospace 8
+font pango:Mononoki Nerd Font 12
+#font martianmono:monospace 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -69,7 +70,7 @@ bindsym $mod+space exec "rofi -show run"
 bindsym $mod+Shift+s exec "flameshot gui"
 
 # Chrome
-bindsym $mod+Shift+Return exec google-chrome
+bindsym $mod+Shift+Return exec google-chrome -use-gl=egl --enable-blink-features=MiddleClickAutoscroll
 
 # change focus
 bindsym $mod+h focus left
@@ -211,4 +212,3 @@ bar {
         status_command i3status
 	mode hide
 }
-
