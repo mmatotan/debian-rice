@@ -1,7 +1,19 @@
 # Copyright (c) 2016-present Sven Greb <development@svengreb.de>
 # This source code is licensed under the MIT license found in the license file.
 font:
-  size: 7.5
+  size: 8.5
+  normal:
+    family: Mononoki Nerd Font Mono
+    style: Regular
+  bold:
+    family: Mononoki Nerd Font Mono
+    style: Bold
+  italic:
+    family: Mononoki Nerd Font Mono
+    style: Italic
+  bold_italic:
+    family: Mononoki Nerd Font Mono
+    style: Bold Italic
 
 colors:
   primary:

@@ -49,7 +49,7 @@ bindsym XF86AudioPrev exec playerctl previous
 bindsym XF86MonBrightnessUp exec --no-startup-id light -A 4 # increase screen brightness
 bindsym XF86MonBrightnessDown exec --no-startup-id light -U 4 # decrease screen brightness
 # Bind caps lock (code 66)
-bindcode 66 exec --no-startup-id ~/.config/i3/change_language.sh
+bindcode 66 exec --no-startup-id ~/Scripts/switch_layout.sh
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -69,7 +69,7 @@ bindsym $mod+space exec "rofi -show run"
 bindsym $mod+Shift+s exec "flameshot gui"
 
 # Chrome
-bindsym $mod+Shift+Return exec firefox
+bindsym $mod+Shift+Return exec google-chrome
 
 # change focus
 bindsym $mod+h focus left
@@ -199,7 +199,7 @@ bindsym $mod+r mode "resize"
 gaps inner 10px
 smart_gaps on
 exec_always --no-startup-id dunst
-exec_always --no-startup-id ~/.screenlayout/posao.sh
+# exec_always --no-startup-id ~/.screenlayout/posao.sh
 
 default_border pixel 2
 focus_follows_mouse no

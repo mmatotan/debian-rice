@@ -20,7 +20,6 @@ order += "disk /"
 #order += "load"
 order += "memory"
 order += "tztime local"
-order += "tztime london"
 
 wireless _first_ {
         format_up = "W: (%quality at %essid) %ip"
